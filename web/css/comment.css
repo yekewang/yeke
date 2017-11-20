@@ -67,7 +67,11 @@ li{
 	position: relative;
 	bottom: 25px;
 }
-
+input:focus {
+	border:none;
+	outline: none;
+	border-bottom: 2px solid #ff9600;
+}
 
 
 
