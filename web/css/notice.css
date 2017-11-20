@@ -1,0 +1,82 @@
+.company-h1 {
+	color: #888888;
+	position: relative;
+	bottom: 25px;
+}
+.notice li {
+	padding: 0 60px;
+	position: relative;
+}
+.notice .noticelist {
+	font-size: #adadad;
+	font-size: 16px;
+	padding: 40px 0;
+	border-bottom: 1px solid #adadad;
+	color: #adadad;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.notice li:last-of-type .noticelist {
+	border:none;
+}
+.notice li:hover {
+	box-shadow: 0 0 20px #eeeded;
+	z-index: 100;
+	bottom: 1px;
+}
+.notice li:hover .noticelist {
+	color: #2c66ab;
+}
+.notice .noticelist span {
+	margin-right: 40px;
+}
+.page {
+	width: 505px;
+	margin:30px auto;
+	overflow: hidden;
+}
+.page li {
+	float: left;
+	padding: 3px 10px;
+	border:1px solid #f2f2f2;
+	color: #adadad;
+	margin-right: 10px;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	min-width: 32px;
+	box-sizing: border-box;
+}
+.page .page-null {
+	background:#e5e4e2;
+	color: #fff;
+}
+.page li.page-active {
+	border:1px solid #2c66ab;
+	color: #2c66ab;
+}
+.noticedetail {
+	padding: 40px;
+}
+.noticetit {
+	font-size: 20px;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 30px;
+}
+.noticedetail-font {
+	color: #adadad;
+	font-size: 16px;
+	line-height: 2;
+	margin-top: 30px;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 30px;
+}
+.notice-return {
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+

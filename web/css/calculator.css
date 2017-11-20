@@ -1,0 +1,35 @@
+.com-tit {
+	padding: 30px 0;
+}
+.white-box {
+	padding: 0 30px;
+}
+.jisuanji1 {
+	margin: 20px 0 30px;
+	color: #adadad;
+	width: 100%;
+}
+.jisuanji1 td {
+	padding: 15px 0;
+}
+.jisuanji1 p {
+	padding: 10px 10px;
+	background:#ff9600;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+}
+input,select {
+	width: 240px;
+	border-radius: 5px;
+	border:1px solid #c9c9c9;
+	height: 40px;
+	margin:0 10px;
+	background:#fff;
+	padding-left: 10px;
+}
+select{
+	color: #adadad;
+	font-size: 14px;
+}
