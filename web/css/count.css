@@ -1,0 +1,256 @@
+.company-h2 a {
+	margin-right: 30px;
+}
+.company-h2 a b {
+	font-weight: 600;
+	color:#ff9600;
+}
+.company-h2 a.active {
+	color:#ff9600;
+}
+.zichan {
+	padding: 40px 30px;
+	overflow: hidden;
+}
+.zichan-left {
+	float: left;
+	width: 685px;
+	border-right: 1px solid #dcdcdc;
+	box-sizing: border-box;
+}
+.zichan-right {
+	float: left;
+	width: calc(100% - 685px);
+	margin-top: 60px;
+}
+.zichan-right a {
+	padding: 12px 50px;
+	border:1px solid #ff9600;
+	border-radius: 5px;
+	margin-left: 25px;
+}
+.zichan-right a:nth-of-type(1) {
+	background: #ff9600;
+	color: #fff;
+}
+.zichan-right a:nth-of-type(2) {
+	background: #fff;
+	color: #ff9600;
+}
+.zichan-font {
+	font-size: 16px;
+	color: #888888;
+	text-align: center;
+	padding: 10px 0;
+}
+.zichan-font span {
+	color:#ff9600;
+	font-size: 50px;
+	font-weight: 900;
+}
+.zichan-font b {
+	font-size: 16px;
+	color:#ff9600;
+}
+.zichan-font li {
+	float: left;
+	width: 33%;
+	border-right:1px solid #dcdcdc;
+	margin-top: 10px;
+}
+.zichan-font li span {
+	font-size: 36px;
+}
+.zichan-font li:nth-of-type(3) {
+	border:none;
+}
+
+
+.white-box {
+	margin-bottom: 30px;
+}
+.zichan-tit {
+	color: #888;
+	padding-bottom: 30px;
+	border-bottom:1px solid #e5e5e5;
+}
+.zichan-tit a {
+	float: right;
+}
+.zichan-font2 {
+	font-size: 16px;
+	color: #888888;
+	text-align: center;
+	padding: 10px 0;
+	overflow: hidden;
+}
+.zichan-font2 span {
+	color:#ff9600;
+	font-size: 36px;
+}
+.zichan-font2 b {
+	font-size: 16px;
+	color:#ff9600;
+}
+.zichan-font2 li {
+	float: left;
+	margin-right: 50px;
+}
+
+.zjchantime li {
+	float: left;
+	margin-right: 30px;
+	margin-top: 40px;
+}
+.zjchantime li input {
+	height: 35px;
+	font-size: 18px;
+	color: #888888;
+	box-sizing: border-box;
+}
+.zjchantime li input:focus {
+	border:1px solid #cccece;
+	outline: none;
+}
+.daozhangri p {
+	color: #8d5b40;
+	margin-bottom: 25px;
+}
+.daozhangri p img {
+	margin-right: 10px;
+}
+.daozhangri {
+	background: #fff6e8;
+	padding: 25px;
+}
+.daozhangri td {
+	padding-bottom: 25px;
+	padding-right: 30px;
+}
+.daozhangri tr td:nth-of-type(2) {
+	color: #2c66ab;
+}
+.zichan3 .zichan-tit {
+	overflow: hidden;
+	padding-bottom: 0;
+}
+.zichan3 .zichan-tit span {
+	float: left;
+	margin-right: 30px;
+	padding-bottom: 25px;
+	cursor: pointer;
+}
+.zichan3 .zichan-tit span.active {
+	color: #2c66ab;
+	border-bottom: 3px solid #2c66ab;
+}
+
+.biaodan {
+	background:#fff;
+	width: 100%;
+	margin-top: -30px;
+}
+.biaodan td {
+	width: calc(100% / 8);
+	text-align: center;
+	padding: 25px 0;
+	font-size: 15px;
+	border-right: 1px solid #dcdcdc;
+	position: relative;
+}
+.biaodan tr:nth-of-type(2n) {
+	background: #fff9ef;
+}
+.biaodan td span {
+	color: #ff9600;
+}
+.biaodan tr:nth-of-type(1) td {
+	border:none;
+}
+.biaodan tr td:last-of-type {
+	border:none;
+}
+
+.js-biaodan {
+	display: none;
+	width: 100%;
+}
+.js-biaodan.active {
+	display: inline-block;
+}
+.js-sum {
+	width: 80px;
+}
+
+
+/*2*/
+.zichan-left2 {
+	width: 730px;
+	border-right: 1px solid #e5e5e5;
+	float: left;
+	box-sizing: border-box;
+}
+.zichan-right2 {
+	width: calc(100% - 730px);
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+
+.zichan4 {
+	padding: 0 30px;
+}
+.zichan4 ul {
+	padding: 15px 0;
+}
+.zichan4 ul span {
+	margin-right: 35px;
+    padding-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+.zichan4 ul span.active {
+	color: #2c66ab;
+}
+.js-tab-all {
+	color: #2c66ab;
+	float: right;
+}
+.js-num-all .js-tab-list:nth-of-type(n+7) {
+	display: none;
+}
+.zichan4 ul span.js-tab-hide {
+	color: #2c66ab;
+	display: none;
+}
+.js-num-all2 .js-tab-list2.active {
+	color: #2c66ab;
+}
+
+.zichan-right2 p {
+	padding: 15px 0;
+	margin-bottom: 10px;
+}
+.zichan-right2 p span {
+	color: #ff9600;
+	margin-left: 15px;
+}
+.biaodan2 {
+	background:#fff6e8;
+	width: calc(100% - 60px);
+	margin-left: 30px;
+}
+.biaodan2 td {
+	width: calc(100% / 8);
+	text-align: center;
+	padding: 25px 0;
+	font-size: 15px;
+	border-bottom: 1px solid #dcdcdc;
+	position: relative;
+}
+.biaodan2 td span {
+	color: #ff9600;
+}
+.biaodan2 tr:last-of-type td{
+	border:none;
+}
