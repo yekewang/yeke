@@ -33,3 +33,34 @@
     margin: 0 auto;
     margin-bottom: 66px;
 }
+.about {
+	width: 1080px;
+	margin: 0 auto;
+}
+.rightspan {
+	float: right;
+    margin-top: -20px;
+}
+.about-compony {
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.compony-show {
+	padding: 49px 0 45px 0;
+	width: 990px;
+    margin: 0 auto;
+	border-bottom: 1px solid white;
+}
+.compony-show:last-of-type {
+	border-bottom: none;
+}
+.bluecolor {
+	color: #2c66ab;
+    font-weight: 600;
+}
+.font14 {
+	font-size: 14px;
+}
+.compony-show p:first-child {
+	margin-bottom: 15px;
+}
