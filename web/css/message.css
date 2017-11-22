@@ -1,0 +1,32 @@
+.biaodan3 input,.biaodan3 img {
+	margin:10px;
+}
+.biaodan3 p {
+	overflow: hidden;
+	width: 100%;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.biaodan3 p:hover {
+	color: #2c66ab;
+}
+.biaodan3 {
+	border:1px solid #dcdcdc;
+}
+.biaodan.biaodan3 tr {
+	background:#fff;
+	cursor: pointer;
+	border-bottom: 1px solid #dcdcdc;
+}
+.biaodan3 tr:nth-of-type(1) {
+	background:#f2f2f2;
+}
+.colspan5 p {
+	float: left;
+	width: 80%;
+	text-align: left;
+	padding-left:20px;
+}
+.js-tr2 {
+	display: none;
+}

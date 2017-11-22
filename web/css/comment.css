@@ -72,7 +72,31 @@ input:focus {
 	outline: none;
 	border-bottom: 2px solid #ff9600;
 }
-
+.page {
+	width: 505px;
+	margin:30px auto;
+	overflow: hidden;
+}
+.page li {
+	float: left;
+	padding: 3px 10px;
+	border:1px solid #f2f2f2;
+	color: #adadad;
+	margin-right: 10px;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+	min-width: 32px;
+	box-sizing: border-box;
+}
+.page .page-null {
+	background:#e5e4e2;
+	color: #fff;
+}
+.page li.page-active {
+	border:1px solid #2c66ab;
+	color: #2c66ab;
+}
 
 
 

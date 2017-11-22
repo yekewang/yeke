@@ -44,4 +44,12 @@ $(function(){
         $(".bank-change-click").html(_html);
     })
 
+    // message
+    $(".js-tr p").click(function(){
+        $(this).parents("tr").next().show();
+    })
+    $(".js-tr2 img").click(function(){
+        $(this).parents(".js-tr2").hide();
+    })
+
 })
