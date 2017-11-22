@@ -1,0 +1,35 @@
+.novice-tit {
+	width: 885px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+.textcenter {
+	text-align: center;
+}
+.padding12 {
+	padding: 12px 0 13px 0;
+}
+.novice-tit .flex1 {
+	background: #dcdcdc;
+	color: white;
+	cursor: pointer;
+}
+.bgorage {
+	background: #ff9600 !important;
+}
+.novice-tit .flex1:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.novice-tit .flex1:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.novice-tit .flex1:nth-child(2) {
+	margin: 0 4px 0 4px;
+}
+.novice-icon {
+	width: 885px;
+    margin: 0 auto;
+    margin-bottom: 66px;
+}
