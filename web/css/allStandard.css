@@ -301,3 +301,15 @@
 	width: 277px;
 	margin-right: 13px;
 }
+.font14 {
+	font-size: 14px;
+}
+.tabs-three {
+	display: none;
+}
+.tabs-three.active {
+	display: block;
+}
+.enable {
+	left: 145px;
+}
