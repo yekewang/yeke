@@ -21,4 +21,27 @@ $(function(){
     tabs($(".js-tab span"),$(".js-biaodan"));
     tabs2($(".js-num-all2 .js-tab-list2"));
     tabs2($(".js-num-all .js-tab-list"));
+    tabs2($(".bank li"));
+
+    // 提现
+    var flag = true;
+    $(".bank-change-click").click(function(){
+        if (flag == true) {
+            $(this).next().show();
+            $(this).css({borderColor:'#ff9600'});
+            flag = false;
+        }
+        else if (flag == false) {
+            $(this).next().hide();
+            $(this).css({borderColor:'#bfbfbf'});
+            flag = true;
+        }
+    })
+
+    $(".bank-change li").click(function(){
+        var _html = $(this).html();
+        $(".bank-change").hide();
+        $(".bank-change-click").html(_html);
+    })
+
 })

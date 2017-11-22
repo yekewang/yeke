@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>椰壳网-我要出借</title>
+	<title>椰壳网</title>
 	<link rel="stylesheet" href="../css/comment.css">
 	<link rel="stylesheet" href="../css/head.css">
-	<link rel="stylesheet" href="../css/calculator.css">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="stylesheet" href="../css/count.css">
 </head>
 <body>
 	<div class="head">
@@ -16,7 +17,7 @@
 			<div class="head-right">
 				<ul class="head-nav">
 					<a href="/">首页</a>
-					<a class="active" href="/">我要出借</a>
+					<a href="/">我要出借</a>
 					<a href="/">新手指引</a>
 					<a href="/">安全保障</a>
 				</ul>
@@ -27,50 +28,74 @@
 		</div>
 	</div>
 	<div class="gray padding-box">
+		<div class="company">
+			<img src="../img/icon-22.png" alt="">
+			<p class="company-h2">
+				<a href="">资产总览</a>
+				<a href="">优惠券</a>
+				<a href="">消息中心 <b>(1)</b></a>
+				<a href="">账户设置</a>
+			</p>
+		</div>
 		<div class="company white-box">
-			<div class="com-tit border-bottom">理财计算器</div>
-			<table class="jisuanji1">
-				<tr>
-					<td>出借金额<input type="text">元</td>
-					<td>年华利率<input type="text">%</td>
-					<td><p class="js-null">重置</p></td>
-				</tr>
-				<tr>
-					<td>出借期限<input type="text">个月</td>
-					<td>
-						还款方式
-						<select name="" id="">
-							<option value="">每月付息，到期还本</option>
-							<option value="">每月付息，到期还本</option>
-							<option value="">每月付息，到期还本</option>
-						</select>
-					</td>
-					<td><p class="js-calculator">开始计算</p></td>
-				</tr>
-			</table>
-			<div class="border-bottom"></div>
-			<!-- 计算结果 -->
-			<ul class="calculator-result">
-				<li><span>出借金额</span><p>24700.00 <span>元</span></p></li>
-				<li><span>应收利息</span><p>1000.00 <span>元</span></p></li>
-				<li><span>月收本息</span><p>1000.00 <span>元</span></p></li>
-			</ul>
-			<div class="border-bottom"></div>
-			<div class="title1">本息回收时间表</div>
-			<ul class="date-time">
-				<li>
-					<span>还款月份</span>
-					<span>应收本金(元)</span>
-					<span>应收利息(元)</span>
-					<span>剩余本息(元)</span>
-				</li>
-				<li>
-					<span>1月</span>
-					<span>1000</span>
-					<span>10</span>
-					<span>100</span>
-				</li>
-			</ul>
+			<div class="zichan">
+				<div class="zichan-tit">网银充值银行限额 </div>
+			</div>
+			<div class="zichan">
+				<table class="biaodan biaodan3">
+					<tr>
+						<td>支持的银行</td>
+						<td>支付类型</td>
+						<td>单笔限额</td>
+						<td>日累计限额</td>
+						<td>备注</td>
+					</tr>
+					<tr>
+						<td><img src="../img/bank1.png" alt=""></td>
+						<td>
+							<p>支付方式一</p>
+							<p>支付方式二</p>
+							<p>支付方式三</p>
+							<p>支付方式四</p>
+						</td>
+						<td>
+							<p>500</p>
+							<p>500</p>
+							<p>50万</p>
+							<p>100万</p>
+						</td>
+						<td>
+							<p>500</p>
+							<p>500</p>
+							<p>50万</p>
+							<p>100万</p>
+						</td>
+						<td>XX银行需要XXX</td>
+					</tr>
+					<tr>
+						<td><img src="../img/bank1.png" alt=""></td>
+						<td>
+							<p>支付方式一</p>
+							<p>支付方式二</p>
+							<p>支付方式三</p>
+							<p>支付方式四</p>
+						</td>
+						<td>
+							<p>500</p>
+							<p>500</p>
+							<p>50万</p>
+							<p>100万</p>
+						</td>
+						<td>
+							<p>500</p>
+							<p>500</p>
+							<p>50万</p>
+							<p>100万</p>
+						</td>
+						<td>XX银行需要XXX</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</div>
 	<div class="footer">
@@ -119,5 +144,5 @@
 	</div>
 </body>
 <script src="../js/jquery.min.js"></script>
-<script src="../js/notice.js"></script>
+<script src="../js/comment.js"></script>
 </html>

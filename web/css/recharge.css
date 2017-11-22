@@ -1,0 +1,186 @@
+.recharge1 {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #888;
+	position: relative;
+}
+.recharge1 a {
+	color: #888;
+	margin-left: 20px;
+}
+.recharge1 b {
+	color: #ff9600;
+	margin-left: 20px;
+}
+.recharge1 span b {
+	color: #2c66ab;
+	margin-left: 0;
+}
+.recharge1 img {
+	margin-left: 20px;
+}
+.js-biaodan {
+	margin-top: 30px;
+}
+.red-font {
+	color: #ff9600;
+}
+.recharge1 span:nth-of-type(1) {
+	width: 120px;
+	display: inline-block;
+	text-align: right;
+}
+input {
+	height: 40px;
+	width: 320px;
+	border:1px solid #dcdcdc;
+	position: relative;
+	border-radius: 5px;
+	margin: 0 5px 0 20px;
+	padding-left: 10px;
+}
+input:focus {
+	border:none;
+	outline: none;
+	border:1px solid #ff9600;
+}
+.gray2 {
+	background: #fffefe;
+}
+.bank {
+	margin-top: 40px;
+    overflow: hidden;
+}
+.bank li {
+	width: 185px;
+	height: 60px;
+	position: relative;
+	text-align: left;
+	padding-top: 15px;
+	box-sizing: border-box;
+	float: left;
+	border:1px solid #dcdcdc;
+	background:#fff;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.bank li img.bank-icon {
+	position: absolute;
+	left: 20px;
+}
+.bank-click {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.bank li.active {
+	border:none;
+}
+.bank li.active  .bank-click {
+	opacity: 1;
+}
+.sublime {
+	background: #ff9600;
+	text-align: center;
+	line-height: 1.3;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 30px;
+	height: 42px;
+	width: 325px;
+	cursor: pointer;
+	margin-bottom:50px;
+}
+.blue-recharge {
+	color: #2c66ab;
+	margin-top: 50px;
+}
+
+.yanzhegnma2 {
+	position: absolute;
+    left: 500px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    color: #2c66ab;
+    z-index: 100;
+    bottom: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    top: 0;
+    height: 40px;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 3;
+}
+.recharge1 .yanzhegnma2 span {
+	width: auto;
+}
+.js-time {
+	display: none;
+}
+
+/*银行选择*/
+.bank-change-click {
+	width: 320px;
+	height: 40px;
+	border:1px solid #bfbfbf;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	top: -30px;
+	left: 150px;
+	height: 40px;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+}
+.bank-change-click img {
+	margin-left: 0;
+	height: 20px;
+}
+.bank-change-click span {
+	float: right;
+}
+.bank-change {
+	width: 320px;
+	border:1px solid #bfbfbf;
+	border-radius: 5px;
+	background:#fff;
+	z-index: 100;
+	overflow: hidden;
+	cursor: pointer;
+	position: absolute;
+	top: 33px;
+	left: 150px;
+	display: none;
+}
+.bank-change li {
+	height: 40px;
+	padding: 10px 10px 0 10px;
+	box-sizing: border-box;
+}
+.bank-change img {
+	height: 20px;
+	float: left;
+	margin-left: 0;
+}
+.bank-change span {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
