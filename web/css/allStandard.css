@@ -140,6 +140,18 @@
     -ms-flex: 2;
     flex: 2;
 }
+.flex4 {
+	-webkit-box-flex: 4;
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+}
+.flex5 {
+	-webkit-box-flex: 5;
+    -webkit-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+}
 .font16 {
 	font-size: 16px;
 }
@@ -153,7 +165,7 @@
 	color: #ff9600;
 }
 .padding40 {
-	padding: 0 0 0 40px;
+	padding: 0 0 0 35px;
 }
 .colorgrey {
 	color: #b3b2b2;
@@ -237,4 +249,55 @@
 }
 .paddingl15 {
 	padding-left: 15px;
+}
+.schedule {
+	width: 113px;
+	height: 3px;
+	background: #959595;
+	margin: 0 7px 0 28px;
+	position: relative;
+}
+.alignitems {
+	align-items: center;
+}
+.inschedule {
+	width: 50%;
+	height: 3px;
+	position: absolute;
+	background: #ff9600;
+}
+.marginle20 {
+	margin-left: 20px;
+}
+.money-warrp {
+	margin: 30px 0 35px 0;
+}
+.money-input {
+	width: 275px;
+	height: 40px;
+	border: 1px solid #ff9600;
+	border-radius: 3px;
+
+}
+.allin {
+	width: 88px;
+	height: 40px;
+	border: 1px solid #ff9600;
+	border-radius: 3px;
+	text-align: center;
+	color: #ff9600;
+	line-height: 42px;
+	cursor: pointer;
+}
+.liji {
+	background: #ff9600;
+	color: white;
+	width: 276px;
+	height: 39px;
+	outline: none;
+	border: none;
+}
+.input-width {
+	width: 277px;
+	margin-right: 13px;
 }
