@@ -17,11 +17,22 @@ $(function(){
             $(this).addClass('active');
         })
     };
+    var tabs3 = function (tab, con) {
+        tab.click(function () {
+            var index = tab.index(this);
+            tab.removeClass('colorblue');
+            $(this).addClass('colorblue');
+            // $(".active-blue").css("left","145px");
+            con.removeClass('active');
+            con.eq(index).addClass('active');
+        })
+    };
 
     tabs($(".js-tab span"),$(".js-biaodan"));
     tabs2($(".js-num-all2 .js-tab-list2"));
     tabs2($(".js-num-all .js-tab-list"));
     tabs2($(".bank li"));
+    tabs3($(".standard-tit .flex .tab-father"),$(".tabs-three"));
 
     // 提现
     var flag = true;
@@ -43,5 +54,10 @@ $(function(){
         $(".bank-change").hide();
         $(".bank-change-click").html(_html);
     })
+
+    //底部横线切换
+    $(".standard-tit .flex .tab-father").click(function(){
+        $(".active-blue").toggleClass("enable");
+    });
 
 })
