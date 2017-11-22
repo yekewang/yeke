@@ -30,3 +30,13 @@
 .js-tr2 {
 	display: none;
 }
+.function {
+	margin-top: 20px;
+}
+.function span {
+	padding: 5px 20px;
+	border:1px solid #ff9600;
+	font-size: 14px;
+	color: #ff9600;
+	border-radius: 5px;
+}
