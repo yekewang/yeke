@@ -67,4 +67,11 @@ $(function(){
         $(".active-blue").toggleClass("enable");
     });
 
+
+    function close(){
+        $(".true").hide();
+    }
+    $(".js-true").click(function (){
+        close();
+    });
 })

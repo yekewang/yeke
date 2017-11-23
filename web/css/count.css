@@ -258,3 +258,47 @@
 .biaodan3 {
 	color: #888;
 }
+
+/*form*/
+.form {
+	padding-top: 50px;
+}
+.form .input-box {
+	padding-left: 260px;
+	overflow: hidden;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+.form .input-box input {
+	width: 320px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	border:1px solid #dcdcdc;
+	padding-left: 10px;
+	font-size: 16px;
+}
+.form .input-box span {
+	width: 100px;
+	display: inline-block;
+	padding-right: 10px;
+	text-align: right;
+}
+.form .input-box b {
+	font-size: 14px;
+}
+.input-submit {
+	background:#ff9600;
+	color: #fff;
+	border:none;
+}
+
+
+
+
+
+
+
+
+
