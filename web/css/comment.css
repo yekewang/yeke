@@ -139,3 +139,6 @@ input:focus {
     -ms-flex: 5;
     flex: 5;
 }
+.justify-between {
+	justify-content:space-between;
+}
