@@ -41,3 +41,25 @@
 .setcont:last-of-type {
 	border-bottom:none;
 }
+.martop3 {
+	margin-top: 3px;
+}
+.paddrig10 {
+	padding-right: 0px !important;
+	text-align: left !important;
+}
+.thefrist {
+	margin-bottom: 35px;
+}
+.bankinfo {
+	color: #888;
+}
+.form .input-box select {
+	width: 320px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	border:1px solid #dcdcdc;
+	padding-left: 10px;
+	font-size: 16px;
+}
