@@ -262,6 +262,7 @@
 /*form*/
 .form {
 	padding-top: 50px;
+	color: #888;
 }
 .form .input-box {
 	padding-left: 260px;
@@ -280,7 +281,7 @@
 	font-size: 16px;
 }
 .form .input-box span {
-	width: 100px;
+	width: 150px;
 	display: inline-block;
 	padding-right: 10px;
 	text-align: right;
@@ -293,7 +294,11 @@
 	color: #fff;
 	border:none;
 }
-
+.form .input-box input:focus {
+	border:none;
+	outline: none;
+	border: 1px solid #ff9600;
+}
 
 
 
