@@ -85,9 +85,6 @@
 .flex img {
 	vertical-align: middle;
 }
-.justify-between {
-	justify-content:space-between;
-}
 .blue-font {
 	color: #2c66ab;
 	font-size: 14px;
